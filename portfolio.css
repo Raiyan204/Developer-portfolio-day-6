@@ -111,7 +111,7 @@ main  section {
 }
 .about-items{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
 
 }
 .item-description{
@@ -133,3 +133,53 @@ main  section {
     border-radius: 5px;
     
 }
+/* RESUME SECTION*/
+.resume-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.skills{
+    display: block;
+}
+.section-title{
+    text-align: center;
+}
+.resume-column{
+    padding-left: 50px;
+}
+.download{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    }
+    /*footer*/
+    .foots{
+        display: flex;
+        padding: 130px 230px;
+        background-color: rgb(255, 248, 243);
+        gap: 100px;
+
+    }
+    .foot-div-one{
+        width: 50%;
+    }
+    .foot-div-two{
+        width: 50%;
+    }
+    .in{
+        padding-top:0px 18px 349px 18px;
+        padding-bottom: 10px;
+        margin-bottom: 24px;
+        align-content: center;
+        width: 100%;
+    }
+    footer textarea{
+        height: 64px;
+        border-radius: 5px;
+        background-color: white;
+        color: #181818;
+        display: block;
+        
+    }
